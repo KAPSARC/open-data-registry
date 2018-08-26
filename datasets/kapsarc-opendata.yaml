@@ -1,0 +1,33 @@
+Name: KAPSARC Energy Data Portal
+Description: |
+  KAPSARC data portal is available to anyone interested in energy data. Portal is designed to enable users to better understand energy, economy and policies by quickly accessing and analyzing critical data.
+Documentation: https://datasource.kapsarc.org/explore/?sort=modified&disjunctive.theme&disjunctive.country&disjunctive.iso-region&disjunctive.keyword&disjunctive.publisher
+Contact: https://datasource.kapsarc.org/page/suggest/
+UpdateFrequency: Daily, Monthly, Quarterly and Annually
+Tags:
+  - Crude Oil & Refined Products
+  - Natural Gas
+  - Coal
+  - Nuclear
+  - Electricity
+  - Renewable & Alternative Fuels
+  - Transportation
+  - Industry
+  - Agriculture
+  - Environment
+  - Economy
+  - Demography
+  - Trade
+  - Water
+  - Policies
+License: CC-0
+Resources:
+  - Description: Open Datasets
+    ARN: arn:aws:s3:::kapsarc-opendata
+    Region: eu-central-1
+    Type: S3 Bucket
+DataAtWork:
+  - Title: KAPSARC Energy Data Portal
+    URL: https://datasource.kapsarc.org
+    AuthorName: King Abdullah Petroleum Studies and Research Center
+    AuthorURL: https://datasource.kapsarc.org
